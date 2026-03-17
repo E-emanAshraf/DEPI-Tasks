@@ -29,7 +29,7 @@ play.addEventListener("click", function () {
         } else {
             slider.src = images[++idx];
         }
-    }, 1000);
+    }, 2000);
 });
 pause.addEventListener("click", function () {
     clearInterval(interval);

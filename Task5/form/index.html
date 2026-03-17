@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form id="myForm" style="margin-bottom: 30px;">
+        <div style="display: flex;flex-direction: column;gap: 10px;width: 300px;margin-bottom: 20px;" id="input_fields">
+            <input type="text" id="name" placeholder="Enter your name">
+            <input type="text" id="age" placeholder="Enter your age">
+            <input type="text" id="email" placeholder="Enter your email">
+        </div>
+        <button type="submit" id="add" style="margin-right:10px;">add</button>
+        <button type="reset" id="clear">reset</button>
+    </form>
+    <table border="1" style="width: 50%;text-align: left;">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody id="tableBody">
+        </tbody>
+    </table>
+    <script src="./script.js"></script>
+</body>
+
+</html>
